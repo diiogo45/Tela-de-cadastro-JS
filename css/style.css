@@ -1,0 +1,51 @@
+body{
+
+padding: 0px;
+margin: 0px;
+border: 0px;
+
+}
+
+.formulario {
+background-color: red;
+width: 200px;
+padding: 50px;
+margin-top: 50px;
+position: absolute;
+left: 350px;
+
+
+}
+
+.formulario input[type="text"] {
+
+
+	padding: 10px;
+}
+
+.formulario input[type="password"] {
+
+
+	padding: 10px;
+}
+
+.formulario button {
+
+
+	padding: 10px;
+	width: 190px;
+	color: white;
+	background-color: black;
+	border: none;
+}
+
+
+.resultado  {
+margin-top: 10px;
+background-color: black;
+width: 190px;
+height: 120px;
+padding: 2px;
+
+
+}
