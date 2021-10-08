@@ -2,31 +2,35 @@
 
 const texto = document.getElementById("texto");
 
-
 function calcular () {
 
 const nome = document.getElementById("nome").value;
 
 const senha = document.getElementById("senha").value;
 
-const resultado  = document.getElementById("resultado");
+const resultado = document.getElementById("resultado")
+
 
 
 if (nome !== '' && senha !== '') {
 
 
-alert("Todos os valores foram preenchidos com sucesso");
+
+resultado.textContent = `Seu nome é ${nome} e sua senha  atual é ${senha}`;
+
+
+
 
 } 
 else {
 
 
-	alert("Por favor,digite todos os valores");
+	resultado.textContent = "Por favor,preencha todos os dados";
 }
+
+
+
 }
-
-
-
 
 
 botao.addEventListener('click', calcular)
